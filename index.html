@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="https://th.bing.com/th/id/R.bca1cdf7c6f482b9e53bf678100c7954?rik=mOV5rfhAaC5UtQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f5%2fb%2f287641.jpg&ehk=xwsbJWi%2fbCj9y%2b9Ks3qG6jb0y%2bG2cKcjjZtEgBtcdLI%3d&risl=&pid=ImgRaw&r=0" alt="Image" class="img">
+        <h1 class="head">My Weather-App</h1>
+        <div class="search-con">
+            <input id="city" type="text">
+            <button id="submit" class="btn">Search</button>
+        </div>
+    </div>
+
+    <h1 class="weather-head">Weather in <span id="cityName"></span></h1>
+
+    <div class="card-con">
+        <div class="card">
+            <h1>Humidity</h1>
+            <h3>Cloud PCT is <span id="cloud_pct"></span> %</h3>
+            <h3>Feels Like is <span id="feels_like"></span> %</h3>
+            <h3>Humidity is <span id="humidity"></span> %</h3>
+        </div>
+
+        <div class="card">
+            <h1>Temperature</h1>
+            <h3>Temperature is <span id="temp"></span>  ° C</h3>
+            <h3>Min Temperature is <span id="min_temp"></span> ° C</h3>
+            <h3>Max Temperature is <span id="max_temp"> ° C</h2>
+        </div>
+
+        <div class="card">
+            <h1>Wind/sunrise</h1>
+            <h3>Wind Speed is <span id="wind_speed"></span> Km/Hr</h3>
+            <h3>Wind Degree is <span id="wind_degrees"></span> Km/Hr</h3>
+            <h3>Sunrise is <span id="sunrise"></span> Km/Hr</h3>
+            <h3>Sunset is <span id="sunset"></span> Km/Hr</h3>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
